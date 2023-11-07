@@ -1,3 +1,9 @@
+Projeto BackEnd replica do Gympass
+para rodar o projeto use a versão do node 18 superior e rode o docker compose para startar o container do banco postgreas 
+
+
+
+
 # App
 
 GymPass style app.
