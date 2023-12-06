@@ -18,6 +18,7 @@ export class ValidateCheckInUseCase {
   async execute({
     checkInId,
   }: IValidateCheckInUseCaseRequest): Promise<IValidateCheckInUseCaseResponse> {
+    console.log('chegou aq')
     const checkIn = await this.checkInsRepository.findById(checkInId)
 
     if (!checkIn) {
